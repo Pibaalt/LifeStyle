@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(41, 41, 41);
+    padding: 15px
+}
+
+h1 {
+    color: white;
+    padding: 0px;
+}
+
+h2 {
+    color: white;
+    padding: 0%;
+}
+
+h3 {
+    color: white;
+    padding: 0%;
+}
+
+img {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+}
