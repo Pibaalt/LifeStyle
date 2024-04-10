@@ -1,0 +1,36 @@
+
+.imgFundo {
+    width: 100%;
+    
+}
+
+.titulo {
+        position: absolute; 
+        top: 10px; 
+        left: 150px; 
+        color: white;
+}
+.centro {
+    position: absolute; 
+    top: 350px; 
+    left: 470px; 
+    color: white;
+}
+.acesso{
+    position: absolute; 
+    top: 500px; 
+    left: 470px; 
+    width: 100%; 
+    list-style-type:none
+
+}
+footer {
+    background-color: rgb(49, 49, 49);
+}
+.amarelo {
+    position: absolute;
+    top: 500px;
+    left: 530px;
+   
+
+}
