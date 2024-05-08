@@ -1,7 +1,16 @@
 
+body {
+    font-family: 'Anton', sans-serif; 
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
 .imgFundo {
-    width: 100%;
-    
+    width: 102.5%;
+    margin: -10px;
 }
 
 .titulo {
@@ -9,28 +18,35 @@
         top: 10px; 
         left: 150px; 
         color: white;
+        margin: 10px;
 }
 .centro {
-    position: absolute; 
-    top: 350px; 
-    left: 470px; 
+    position: absolute;
+    width: 300px; 
+    top: 400px; 
+    left: 400px; 
     color: white;
 }
 .acesso{
     position: absolute; 
-    top: 500px; 
-    left: 470px; 
+    top: 20px; 
+    left: 60px; 
     width: 100%; 
-    list-style-type:none
-
 }
-footer {
-    background-color: rgb(49, 49, 49);
-}
-.amarelo {
+.bloco-amarelo {
     position: absolute;
-    top: 500px;
-    left: 530px;
-   
-
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: yellow;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+}
+.logo {
+    position: absolute;
+    width: 80px; /* Defina a largura desejada */
+    height: 80px; /* Defina a altura desejada */
+    top: -270px;
+    left: -280px;
 }
