@@ -1,25 +1,42 @@
 body {
+    font-family: "anton", sans-serif;
+    font-style: italic;
     background-color: rgb(41, 41, 41);
     padding: 15px
 }
 
 h1 {
-    color: white;
+    color: rgb(221, 224, 7);
     padding: 0px;
 }
 
 h2 {
+    text-align: center;
     color: white;
     padding: 0%;
 }
 
-h3 {
+p {
     color: white;
     padding: 0%;
 }
 
 img {
-    height: 200px;
+    height: 330px;
     object-fit: cover;
-    width: 200px;
+    width: 500px;
+
+}
+
+.textomeio {
+    text-align: center;
+
+}
+
+.acesso {
+    position: relative;
+    top: 450px;
+    left: 760px;
+    bottom: auto;
+    appearance: auto;
 }
