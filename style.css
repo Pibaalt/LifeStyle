@@ -6,26 +6,32 @@ body {
 a {
     text-decoration: none;
     color: black;
-    font-style: italic;
 }
 .imgFundo {
     width: 102.5%;
     margin: -10px;
 }
-
-.titulo {
+.titulo1 {
+    position: absolute; 
+        top: 11px; 
+        left: 86px; 
+        color: yellow;
+        margin: 10px;
+}
+.titulo2 {
         position: absolute; 
         top: 10px; 
-        left: 150px; 
+        left: 90px; 
         color: white;
         margin: 10px;
 }
 .centro {
     position: absolute;
-    width: 300px; 
-    top: 400px; 
-    left: 400px; 
+    width: 550px; 
+    top: 350px; 
+    left: 460px; 
     color: white;
+    font-size: 30px;
 }
 .acesso{
     position: absolute; 
@@ -49,4 +55,15 @@ a {
     height: 80px; /* Defina a altura desejada */
     top: -270px;
     left: -280px;
+}
+.bloco-preto{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: rgb(17, 17, 17);
+    padding: 20px;
+    width: 530px;
+    height: 240px;
+    border-radius: 10px;
 }
