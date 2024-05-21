@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
-    <title>Tela de Cadastro (LifeStyle)</title>
+    <title>Tela de Login (LifeStyle)</title>
     <style>
         /* Estilos para centralizar o formulário */
         .container {
@@ -18,6 +18,7 @@
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
+            background-color: rgb(17, 17, 17);
         }
 
         .form-input {
@@ -26,6 +27,21 @@
             padding: 10px;
             box-sizing: border-box;
         }
+
+        .form-btn {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: #fffb00;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-btn:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -33,22 +49,19 @@
         <div class="form-box">
             <form action="" method="post">
                 <div>
-                    <h1>Cadastro do Usuário</h1>
+                    <h1>Login</h1>
                 </div>
                 <div>
-                    <input type="text" name="nome" placeholder="Informe o seu Login" class="form-input">
+                    <input type="text" name="nome" placeholder="Informe seu Login" class="form-input">
                 </div>
                 <div>
-                    <input type="password" name="senha" placeholder="Informe a sua Senha" class="form-input">
+                    <input type="password" name="senha" placeholder="Informe sua Senha" class="form-input">
                 </div>
                 <div>
-                    <input type="email" name="email" placeholder="Informe o seu E-mail" class="form-input">
+                    <input type="submit" value="Entrar" class="form-btn">
                 </div>
                 <div>
-                    <input type="submit" value="Cadastrar" class="form-input">
-                </div>
-                <div>
-                    Você já tem uma conta? <a href="login.html">Efetue o seu Login</a>
+                    Não é Cadastrado? <a href="cadastro.html">Crie uma Conta</a>
                 </div>
             </form>
         </div>
