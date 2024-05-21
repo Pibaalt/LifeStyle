@@ -18,6 +18,8 @@
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
+            background-color: rgb(17, 17, 17);
+            color: #ffffff; /* Cor do texto dentro do formulário */
         }
 
         .form-input {
@@ -25,6 +27,26 @@
             margin-bottom: 10px;
             padding: 10px;
             box-sizing: border-box;
+        }
+
+        .form-btn {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: #fffb00;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-btn:hover {
+            background-color: #0056b3;
+        }
+
+        h1,
+        a {
+            color: #fffb00; /* Cor do texto do h1 e do link */
         }
     </style>
 </head>
@@ -45,7 +67,7 @@
                     <input type="email" name="email" placeholder="Informe o seu E-mail" class="form-input">
                 </div>
                 <div>
-                    <input type="submit" value="Cadastrar" class="form-input">
+                    <input type="submit" value="Cadastrar" class="form-btn">
                 </div>
                 <div>
                     Você já tem uma conta? <a href="login.html">Efetue o seu Login</a>
