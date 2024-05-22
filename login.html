@@ -1,30 +1,80 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
-    <title>Tela de Login(LifeStyle)</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Tela de Login (LifeStyle)</title>
+    <style>
+        /* Estilos para centralizar o formulário e adicionar a imagem de fundo */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('./imagens/gym-with-indoor-cycling-equipment.jpg'); /* Substitua 'sua-imagem-de-fundo.jpg' pelo caminho da sua imagem */
+            background-size: cover;
+            background-position: center;
+            margin: -10px;
+        }
+
+        .form-box {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: rgba(17, 17, 17, 0.8); /* Adicionando uma cor de fundo semi-transparente */
+            color: #ffffff; /* Cor do texto dentro do formulário */
+        }
+
+        .form-input {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .form-btn {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: #fffb00;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-btn:hover {
+            background-color: #0056b3;
+        }
+
+        h1,
+        a {
+            color: #fffb00; /* Cor do texto do h1 e do link */
+        }
+    </style>
 </head>
-    <body>
-        <div class="container">
-            <div class="form-box">
-                <form action="" method="post">
-                    <div>
-                        <h1>Login</h1>
-                    </div>
-                    <div>
-                        <input type="text" name="nome" placeholder="Informe seu Login" class="form-input">
-                    </div>
-                    <div>
-                        <input type="password" name="senha" placeholder="Informe sua Senha" class="form-input">
-                    </div>
-                    <div>
-                        <input type="submit" value="Entrar" class="form-btn">
-                    </div>
-                    <div>
-                        Não é Cadastrado? <a href="cadastro.html">Crie uma Conta</a>
-                    </div>
-                </form>
-            </div>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <form action="" method="post">
+                <div>
+                    <h1>Login</h1>
+                </div>
+                <div>
+                    <input type="text" name="nome" placeholder="Informe seu Login" class="form-input">
+                </div>
+                <div>
+                    <input type="password" name="senha" placeholder="Informe sua Senha" class="form-input">
+                </div>
+                <div>
+                    <input type="submit" value="Entrar" class="form-btn">
+                </div>
+                <div>
+                    Não é Cadastrado? <a href="cadastro.html">Crie uma Conta</a>
+                </div>
+            </form>
         </div>
-    </body>
+    </div>
+</body>
 </html>

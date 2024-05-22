@@ -1,0 +1,37 @@
+a {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background-color: yellow;
+    padding: -200px; /* Valor de padding reduzido */
+    text-align: center;
+    margin: -8px;
+}
+/* Estilo para os títulos */
+h3 {
+    color: black;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+}
+/* Estilo para os subtítulos */
+h4 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+}
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+}
