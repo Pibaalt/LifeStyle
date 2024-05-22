@@ -1,0 +1,14 @@
+body {
+    background-color: #141414;
+    font-family: 'Anton', sans-serif; 
+    font-style: italic;
+    font-size: 25px;
+}
+.im1 {
+width: 600px ;
+height: 200px;
+}
+.im2{
+width: 100px;
+height: 200px;
+}
