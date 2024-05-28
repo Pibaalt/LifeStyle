@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LifeStyle</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style4.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/fontawesome.min.css">
 <body>
-    <div class="titulo1">
+    <div class="titulo1" id="titulo1">
         <p><h1> LIFE STYLE</h1></p>
     </div>
-    <div class="titulo2">
+    <div class="titulo2" id="titulo2">
             <p><h1> LIFE STYLE</h1></p>
         </div>
         <div class="bloco-preto">
@@ -37,5 +37,20 @@
     </footer>
     <script src="./js/all.min.js"></script>
     <script src="./js/fontawesome.min.js"></script>
+    <script>
+        document.getElementById('titulo1').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Rola suavemente
+            });
+        });
+
+        document.getElementById('titulo2').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Rola suavemente
+            });
+        });
+    </script>
 </body>
 </html>
