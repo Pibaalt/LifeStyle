@@ -1,11 +1,29 @@
+body {
+    font-family: 'Anton', sans-serif; 
+    font-style: italic;
+    background-image: url("./imagens/tela4.jpg" );
+    background-repeat: no-repeat;
+    background-size: 1366px;
+}
+.acesso a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 120px;
+    padding-top: 45px;
+}
 a {
     color: black;
     font-family: 'Anton', sans-serif;
     text-decoration: none;
+    padding-left: 200px;
+    font-style: oblique;
+
 }
 /* styles.css */
 footer {
-    background-color: #ecd500;
+    background-color: yellow;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -48,4 +66,58 @@ footer a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     padding-top: 20px;
+    padding-left: 15px;
+}
+.titulo1 {
+    position: absolute; 
+        top: 11px; 
+        left: 86px; 
+        color: yellow;
+        margin: 10px;
+        font-size: 25px;
+}
+.titulo2 {
+        position: absolute; 
+        top: 10px; 
+        left: 90px; 
+        color: white;
+        margin: 10px;
+        font-size: 25px;
+}
+.centro {
+    position: absolute;
+    width: 550px; 
+    top: 145px; 
+    left: 460px; 
+    color: white;
+    font-size: 40px;
+}
+.acesso{
+    position: absolute; 
+    top: 20px; 
+    left: 60px; 
+    width: 100%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.bloco-amarelo {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: yellow;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+}
+.bloco-preto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: rgb(17, 17, 17);
+    padding: 20px;
+    width: 620px;
+    height: 330px;
+    border-radius: 10px;
 }
