@@ -2,15 +2,16 @@
 body {
     font-family: 'Anton', sans-serif; 
     font-style: italic;
+    background-image: url("./imagens/imagem\ tela1.jpg" );
+    background-repeat: no-repeat;
+    background-size: 1366px;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
-.imgFundo {
-    width: 102.5%;
-    margin: -10px;
-}
+
 .titulo1 {
     position: absolute; 
         top: 11px; 
@@ -28,7 +29,7 @@ a {
 .centro {
     position: absolute;
     width: 550px; 
-    top: 350px; 
+    top: 195px; 
     left: 460px; 
     color: white;
     font-size: 30px;
@@ -41,7 +42,7 @@ a {
 }
 .bloco-amarelo {
     position: absolute;
-    top: 90%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -40%);
     background-color: yellow;
@@ -58,7 +59,7 @@ a {
 }
 .bloco-preto{
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -40%);
     background-color: rgb(17, 17, 17);
