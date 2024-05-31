@@ -2,8 +2,8 @@ body {
     font-family: 'Anton', sans-serif; 
     font-style: italic;
     background-image: url("./imagens/tela4.jpg" );
-    background-repeat: no-repeat;
-    background-size: 1366px;
+    background-size: cover;
+    
 }
 .acesso a {
     display: flex;
@@ -87,8 +87,8 @@ footer a{
 .centro {
     position: absolute;
     width: 550px; 
-    top: 145px; 
-    left: 460px; 
+    top: 320px; 
+    left: 750px; 
     color: white;
     font-size: 40px;
 }
