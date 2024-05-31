@@ -1,10 +1,10 @@
-
 body {
     font-family: 'Anton', sans-serif; 
     font-style: italic;
-    background-image: url("./imagens/imagem\ tela1.jpg" );
+    background-image: url("./imagens/imagem tela1.jpg");
     background-repeat: no-repeat;
-    background-size: 1366px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 a {
@@ -29,8 +29,8 @@ a {
 .centro {
     position: absolute;
     width: 550px; 
-    top: 195px; 
-    left: 460px; 
+    top: 350px; 
+    left: 745px; 
     color: white;
     font-size: 30px;
 }
@@ -42,7 +42,7 @@ a {
 }
 .bloco-amarelo {
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -40%);
     background-color: yellow;
@@ -68,5 +68,28 @@ a {
     height: 240px;
     border-radius: 10px;
 }
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .centro {
+        font-size: 1.5rem;
+    }
 
-    
+    .bloco-amarelo {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .centro {
+        font-size: 1.2rem;
+    }
+
+    .bloco-amarelo {
+        width: 90%;
+        font-size: 1rem;
+    }
+}
