@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    color: rgb(221, 224, 7);
+    color: #ffd900;
     padding: 0px;
 }
 
@@ -21,22 +21,36 @@ p {
     padding: 0%;
 }
 
-img {
-    height: 330px;
-    object-fit: cover;
-    width: 500px;
-
-}
-
 .textomeio {
     text-align: center;
 
 }
 
 .acesso {
-    position: relative;
-    top: 450px;
-    left: 760px;
+    position:absolute;
+    top: 850px;
+    left: 1200px;
     bottom: auto;
-    appearance: auto;
+    appearance:initial;
+    margin-bottom: auto;
+}
+.primeiro {
+    position:absolute;
+    height: 120px;
+    width: 50px;
+    left: 15px;
+   
+}
+.segundo {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 800px;
+    
+}
+.terceiro{
+    position:absolute;
+    width: 180px;
+    height: 180px;
+    left: 1660px;
 }
