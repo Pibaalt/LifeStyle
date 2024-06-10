@@ -6,7 +6,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
 a {
     text-decoration: none;
     color: black;
@@ -28,11 +32,13 @@ a {
 }
 .centro {
     position: absolute;
-    width: 550px; 
-    top: 350px; 
-    left: 745px; 
+    top: 50%; /* Mudança aqui */
+    left: 50%; /* Mudança aqui */
+    transform: translate(-50%, -50%); /* Mudança aqui */
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    width: 550px;
+    height: 240px;
 }
 .acesso{
     position: absolute; 
