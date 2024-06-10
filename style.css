@@ -29,28 +29,32 @@ p {
 .acesso {
     position:absolute;
     top: 850px;
-    left: 1200px;
+    left: 650px;
     bottom: auto;
     appearance:initial;
     margin-bottom: auto;
 }
+.treino {
+    position: absolute;
+    top: 450px;
+}
 .primeiro {
     position:absolute;
-    height: 120px;
-    width: 50px;
+    height: 10px;
+    max-width: 50px;
     left: 15px;
    
 }
 .segundo {
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 0px;
+    max-width: 30px;
     left: 800px;
     
 }
 .terceiro{
     position:absolute;
-    width: 180px;
+   max-width: 10px;
     height: 180px;
     left: 1660px;
 }
