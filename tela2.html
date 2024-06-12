@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LifeStyle</title>
     <link rel="stylesheet" href="style2.css">
     <script>
-        window.onload = function() {
+        window.onload = function () {
             var maisTexto = document.getElementById("maisTexto");
             var botaoLeiaMais = document.getElementById("botaoLeiaMais");
 
-            botaoLeiaMais.addEventListener("click", function() {
+            botaoLeiaMais.addEventListener("click", function () {
                 if (maisTexto.style.display === "none") {
                     maisTexto.style.display = "inline";
                     botaoLeiaMais.innerHTML = "Leia menos";
@@ -22,12 +23,20 @@
         };
     </script>
 </head>
+
 <body>
     <h1>Sobre a nossa empresa</h1>
     <br>
-    <h5>A LifeStyle foi fundada em 2024, por uma equipe de alunos da UNIFAAT, Leonardo e Natan. O objetivo dos alunos foi querer melhorar a vidas das pessoas que não tem condições financeiras de financiar um personal trainer, assim, os alunos fundaram esse site de forma totalmente profissional e acessível para que qualquer cidadão possa ter o melhor conteúdo sobre academias e exercícios no Brasil.<span id="maisTexto" style="display: none;"> Somos apaixonados por fitness e estamos comprometidos em fornecer informações valiosas para ajudar as pessoas a alcançar seus objetivos de saúde e bem-estar.</span></h5>
-    <button id="botaoLeiaMais">Leia mais</button>
-    <div class="imagem1"> 
+    <h5>A LifeStyle foi fundada em 2024, por uma equipe de alunos da UNIFAAT, Leonardo e Natan. O objetivo dos alunos
+        foi querer melhorar a vidas das pessoas que não tem condições financeiras de financiar um personal trainer,
+        assim, os alunos fundaram esse site de forma totalmente profissional e acessível para que qualquer cidadão possa
+        ter o melhor conteúdo sobre academias e exercícios no Brasil.<span id="maisTexto" style="display: none;"> Somos
+            apaixonados por fitness e estamos comprometidos em fornecer informações valiosas para ajudar as pessoas a
+            alcançar seus objetivos de saúde e bem-estar.</span></h5>
+    <div class="button">
+        <button id="botaoLeiaMais">Leia mais</button>
+    </div>
+    <div class="imagem1">
         <img src="imagem/imagem.png" alt="imagem1">
     </div>
     <div class="imagem2">
@@ -35,4 +44,5 @@
     </div>
     <a href="./tela3.html"></a>
 </body>
+
 </html>
