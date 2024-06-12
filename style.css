@@ -1,6 +1,4 @@
 body {
-    font-family: 'Anton', sans-serif; 
-    font-style: italic;
     background-image: url("./imagens/imagem tela1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,68 +8,71 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+} 
 a {
+    font-family: 'Cascadia Code', sans-serif; 
+    font-size: 18px;
     text-decoration: none;
     color: black;
 }
 
 .titulo1 {
+    font-family: 'Anton', sans-serif; 
+    font-style: italic;
+    font-size: 25px;
     position: absolute; 
-        top: 11px; 
-        left: 86px; 
+        top: -45px; 
+        left: 41px; 
         color: yellow;
         margin: 10px;
 }
 .titulo2 {
-        position: absolute; 
-        top: 10px; 
-        left: 90px; 
+    font-family: 'Anton', sans-serif; 
+    font-style: italic;
+    font-size: 25px ;
+    position: absolute; 
+        top: -46px; 
+        left: 45px; 
         color: white;
         margin: 10px;
 }
 .centro {
+    font-size: 25px;
+    font-family: 'Cascadia Code', sans-serif;
     position: absolute;
-    top: 50%; /* Mudança aqui */
+    top: 45%; /* Mudança aqui */
     left: 50%; /* Mudança aqui */
     transform: translate(-50%, -50%); /* Mudança aqui */
     color: white;
-    font-size: 25px;
-    width: 550px;
-    height: 240px;
+    
 }
 .acesso{
-    position: absolute; 
-    top: 20px; 
-    left: 60px; 
-    width: 100%; 
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: black;
 }
 .bloco-amarelo {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -50%);
     background-color: yellow;
     padding: 20px;
-    width: 200px;
-    height: 50px;
-}
-.logo {
-    position: absolute;
-    width: 80px; /* Defina a largura desejada */
-    height: 80px; /* Defina a altura desejada */
-    top: -270px;
-    left: -280px;
+    width: 220px;
+    height: 55px;
+    border-radius: 10px;
 }
 .bloco-preto{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -50%);
     background-color: rgb(17, 17, 17);
-    padding: 20px;
-    width: 530px;
-    height: 240px;
+    width: 680px;
+    height: 260px;
     border-radius: 10px;
 }
 /* Media Queries for Responsiveness */
@@ -98,4 +99,10 @@ a {
         width: 90%;
         font-size: 1rem;
     }
+}
+nav{
+    background-color: black;
+}
+ul {
+    color: black;
 }
