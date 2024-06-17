@@ -26,34 +26,53 @@ p {
 
 }
 
-.acesso {
-    position:absolute;
-    top: 850px;
-    left: 650px;
-    bottom: auto;
-    appearance:initial;
-    margin-bottom: auto;
-}
 
 .primeiro {
-    position:absolute;
+    position: absolute;
     height: 10px;
     max-width: 50px;
     left: 15px;
     top: 330px;
-    transform: scale(0.5);
+    transform: scale(1.0);
 }
+
 .segundo {
     position: absolute;
     height: 130px;
-    max-width: 30px;
-    left: 450px;
-    transform: scale(0.50);
+    max-width: 120px;
+    left: 1050px;
+    transform: scale(1.0);
 }
-.terceiro{
-    position:absolute;
+
+.terceiro {
+    position: absolute;
     max-width: 10px;
     height: 180px;
-    left: 750px;
-    transform: scale(0.5);
+    left: 1550px;
+    transform: scale(1.0);
+}
+
+.botao {
+    position: absolute;
+    top: 950px;
+    left: 1130px;
+    background-color: #f8fc1d;
+    width: 220px;
+    height: 55px;
+    font-family: "OCR A Std", monospace;
+    font-style: normal;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.botao:hover {
+    background-color: #e6c300;
+    border-color: #333;
 }
