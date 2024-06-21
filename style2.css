@@ -8,22 +8,24 @@ body {
 h1 {
     font-family: Impact, fantasy;
     font-weight: 500;
+    font-size: 100px;
     font-style: italic;
     position: relative;
     top: 30px;
     left: 70px;
-    width: 500px;
+    width: 700px;
     margin-top: 10px;
     padding: 0px;
     color: yellow
 }
 
-h5 {
+h2 {
     font-family: 'anton', sans-serif;
     position: relative;
     top: -30px;
     left: 70px;
-    width: 450px;
+    width: 650px;
+    height: 650px;
     margin-top: 20px;
     padding: 0px;
     color: white
@@ -33,26 +35,25 @@ h5 {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 700px;
-    top: 120px;
-    transform: scale(2.0);
+    left: 1400px;
+    top: 250px;
+    transform: scale(3.5);
 }
-
 
 
 .imagem2 {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 1050px;
-    top: 250px;
-    transform: scale(2.0);
+    left: 1950px;
+    top: 540px;
+    transform: scale(3.5);
 }
 
 .button {
     position: fixed;
     left: 45px;
-    top: 470px;
+    top: 1070px;
     border:none;
     color: #45a049;
     padding: 16px 32px;
