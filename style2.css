@@ -157,7 +157,7 @@ h2 {
         h2 {
             top: 2px;
             left: 20px;
-            width: 200px;
+            width: 190px;
             font-size: 12px;
         }
         h1 {
@@ -180,6 +180,8 @@ h2 {
             font-size: 8px;
             padding: 10px 20px;
             margin: 10px auto;
-            top: 420px;
+            top: 400px;
+            left: 15px;
+            transform: scale(0.60);
         }
     }
