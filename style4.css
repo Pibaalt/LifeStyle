@@ -8,7 +8,7 @@ body {
     padding: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow-x: hidden;
+    
 }
 
 .titulo2 {
@@ -29,7 +29,7 @@ body {
 
 .centro {
     position: absolute;
-    width: calc(100% - 40px); /* Ajusta a largura com base no padding do container */
+    width: calc(100% - 40px); 
     top: 350px;
     left: 50%;
     transform: translateX(-50%);
@@ -62,8 +62,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row; /* Dispor os itens em linha */
-    gap: 20px; /* Espaçamento entre os itens */
+    flex-direction: row; 
+    gap: 20px; 
     box-sizing: border-box;
 }
 
@@ -84,6 +84,18 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+.botao-casa {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px; 
+    cursor: pointer;
+    outline: none; 
+}
+
+.botao-casa:hover {
+    color: yellow; 
+}
 
 .bloco-preto {
     position: absolute;
@@ -95,6 +107,10 @@ footer a:hover {
     width: 620px;
     height: 330px;
     border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 
 .bloco-amarelo {
@@ -117,7 +133,6 @@ h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
 }
-/* Para telas grandes, como desktops */
 @media (max-width: 1024px) {
     .titulo1, .titulo2 {
         font-size: 40px;
@@ -140,7 +155,6 @@ h1, h2, h3, h4 {
     }
 }
 
-/* Para tablets em modo paisagem e telas médias */
 @media (max-width: 768px) {
     .titulo1, .titulo2 {
         font-size: 30px;
@@ -168,7 +182,6 @@ h1, h2, h3, h4 {
     }
 }
 
-/* Para tablets em modo retrato e celulares grandes */
 @media (max-width: 425px) {
     .titulo1, .titulo2 {
         font-size: 25px;
@@ -197,7 +210,6 @@ h1, h2, h3, h4 {
     }
 }
 
-/* Para celulares pequenos */
 @media (max-width: 375px) {
     .titulo1, .titulo2 {
         font-size: 20px;
@@ -207,7 +219,7 @@ h1, h2, h3, h4 {
     .centro {
         font-size: 20px;
         width: 250px;
-        top: 350px; /* Ajuste conforme necessário */
+        top: 350px; 
     }
 
     .bloco-preto {
@@ -225,7 +237,6 @@ h1, h2, h3, h4 {
         height: 100px;
     }
 }
-/* Para celulares minusculos*/
 @media (max-width :320px){
     .titulo1, .titulo2 {
     font-size: 20px;
@@ -235,7 +246,7 @@ h1, h2, h3, h4 {
     .centro {
         font-size: 20px;
         width: 250px;
-        top: 350px; /* Ajuste conforme necessário */
+        top: 350px; 
     }
 
     .bloco-preto {

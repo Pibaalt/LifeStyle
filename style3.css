@@ -1,7 +1,7 @@
 body {
     font-family: "anton", sans-serif;
     font-style: italic;
-    background-color: rgb(41, 41, 41);
+    background-color:  #141414;
     padding: 15px;
     color: white;
     text-align: center;
@@ -44,6 +44,7 @@ h2 {
     width: 800px; 
     height: 650px; 
     margin-top: 170px;
+    object-fit: contain;
 }
 
 .imagem-container img {
@@ -94,11 +95,6 @@ h2 {
     text-align: center;
     line-height: 50px;
     margin-top: 20px;
-}
-
-.botao:hover {
-    background-color: #e6c300;
-    border-color: #333;
 }
 
 @media (max-width: 1440px) {

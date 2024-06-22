@@ -90,6 +90,33 @@ h2 {
     box-shadow: 0 2px #666;
     transform: translateY(2px);
 }
+.scroll-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.arrow-button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 48px;
+    color: yellow;
+    background-color: rgb(17, 17, 17);
+    padding: 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.arrow-button:hover {
+    background-color: #555;
+    transform: translateY(5px);
+}
+
+.arrow-button span {
+    display: inline-block;
+}
     @media (max-width: 1440px) {
         body {
             font-size: 22px;
