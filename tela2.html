@@ -12,7 +12,7 @@
             var botaoLeiaMais = document.getElementById("botaoLeiaMais");
 
             botaoLeiaMais.addEventListener("click", function () {
-                if (maisTexto.style.display === "none") {
+                if (maisTexto.style.display === "none" || maisTexto.style.display === "") {
                     maisTexto.style.display = "inline";
                     botaoLeiaMais.innerHTML = "Leia menos";
                 } else {

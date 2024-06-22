@@ -23,7 +23,7 @@ h5 {
     position: relative;
     top: -30px;
     left: 70px;
-    width: 450px;
+    width: 600px;
     margin-top: 20px;
     padding: 0px;
     color: white
@@ -33,9 +33,9 @@ h5 {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 700px;
+    left: 1000px;
     top: 120px;
-    transform: scale(2.0);
+    transform: scale(3.0);
 }
 
 
@@ -44,22 +44,127 @@ h5 {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 1050px;
+    left: 1550px;
     top: 250px;
-    transform: scale(2.0);
+    transform: scale(3.0);
 }
 
 .button {
-    position: fixed;
-    left: 45px;
-    top: 470px;
-    border:none;
-    color: #45a049;
-    padding: 16px 32px;
+    position: absolute; /* Use absolute positioning */
+    top: 50%; /* Position vertically in the middle */
+    left: 0; /* Align to the left edge */
+    transform: translateY(-50%); /* Center the button vertically */
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 60px;
-    border-radius: 4px;
-
+    margin-left: 20px; /* Add some left margin for better alignment */
 }
+.button button {
+    background-color: #161614; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text (if you want to use the button as a block element) */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button block-level */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px #fffb28; /* Add shadows */
+    transition: background-color 0.3s, transform 0.3s; /* Add transition effects */
+}
+
+.button button:hover {
+    background-color: #161614; /* Darker green */
+    transform: translateY(-2px); /* Move up slightly */
+}
+
+.button button:active {
+    background-color: #161614; /* Darker green */
+    box-shadow: 0 2px #666; /* Reduce shadow */
+    transform: translateY(2px); /* Move down slightly */
+}
+    @media (max-width: 1440px) {
+        body {
+            font-size: 22px;
+        }
+        .imagem1, .imagem2 {
+            width: 180px;
+        }
+        .button {
+            font-size: 18px;
+        }
+    }
+    
+    @media (max-width: 1024px) {
+        body {
+            font-size: 20px;
+        }
+        .imagem1, .imagem2 {
+            width: 160px;
+        }
+        .button {
+            font-size: 16px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        body {
+            font-size: 18px;
+        }
+        .imagem1, .imagem2 {
+            width: 140px;
+        }
+        .button {
+            font-size: 14px;
+        }
+    }
+    
+    @media (max-width: 425px) {
+        body {
+            font-size: 16px;
+        }
+        .imagem1, .imagem2 {
+            width: 120px;
+        }
+        .button {
+            font-size: 12px;
+        }
+    }
+    
+    @media (max-width: 375px) {
+        body {
+            font-size: 14px;
+        }
+        .imagem1, .imagem2 {
+            width: 100px;
+        }
+        .button {
+            font-size: 10px;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        body {
+            font-size: 12px;
+        }
+        h1, h5 {
+            top: 100px;
+            left: 6px;
+            width: 200px;
+        }
+        .imagem2 {
+            transform: scale(1.0);
+            left: 160px;
+            top: 500px;
+        }
+        .imagem1 {
+            transform: scale(1.0);
+            left: 20px;
+            top: 600px;
+        }
+        .button {
+            font-size: 8px;
+            padding: 10px 20px;
+            margin: 10px auto;
+        }
+    }
