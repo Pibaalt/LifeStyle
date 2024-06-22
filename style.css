@@ -101,4 +101,98 @@ h2 {
     border-color: #333;
 }
 
+@media (max-width: 1440px) {
+    @media (max-width: 1440px) {
+        .imagem-container {
+            width: 600px; 
+            height: 500px; 
+        }
+        .botao {
+            left: 50%;
+            transform: translateX(-50%);
+            top: 950px; 
+        }
+    }
+    
+}
 
+
+@media (max-width: 425px) {
+    @media (max-width: 425px) {
+        body {
+            padding: 10px;
+        }
+        .textomeio {
+            font-size: 24px;
+        }
+        .subtexto {
+            font-size: 16px;
+        }
+        .imagem-container {
+            margin-top: 10px;
+        }
+        .texto-sobre-imagem {
+            font-size: 16px;
+            padding: 5px;
+        }
+        .botao {
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+        }
+    }
+    .botao {
+        top: 800px;
+    }
+}
+
+@media (max-width: 375px) {
+    @media (max-width: 375px) {
+        .textomeio {
+            font-size: 20px;
+        }
+        .subtexto {
+            font-size: 14px;
+        }
+        .imagem-container {
+            margin-top: 5px;
+        }
+        .texto-sobre-imagem {
+            font-size: 14px;
+        }
+        .botao {
+            width: 140px;
+            height: 35px;
+            font-size: 16px;
+        }
+    }
+    .botao {
+        top: 800px;
+    }
+}
+
+@media (max-width: 320px) {
+    @media (max-width: 320px) {
+        .textomeio {
+            font-size: 18px;
+        }
+        .subtexto {
+            font-size: 12px;
+        }
+        .imagem-container {
+            margin-top: 5px;
+        }
+        .texto-sobre-imagem {
+            font-size: 12px;
+        }
+        .botao {
+            width: 120px;
+            height: 30px;
+            font-size: 14px;
+        }
+    }
+    .botao {
+        top: 800px;
+        text-align:center;
+    }
+}
